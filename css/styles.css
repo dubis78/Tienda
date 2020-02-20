@@ -1,0 +1,56 @@
+/*---inicio variables---*/
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+:root{
+    /*---colores-----*/
+    --green-color:#7acc2d;
+    --back-color:#313337;
+    --white-color: white;
+    /*---tipografía---*/
+    --normal:12px;
+    /*---espaciado---*/
+    --space:10px;
+    --space-2:20px;
+    /*---box sahdow---*/
+    --box:0px 0px 2px 1px #e6e5e9;
+}
+/*---fin variables---*/
+html, body {
+    margin:0;
+    padding: 0;
+    font-family: 'Lacquer', sans-serif;;
+    color:var(--back-color);
+}
+
+p,label{
+    font-size: var(--normal);
+}
+/*---header section---*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space);
+    min-height: 60px;
+    background-color: var(--green-color);
+        
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--back-color);
+    font-size: var(--normal);    
+}
+
+nav a:hover{
+    color: var(--white-color);          
+}
+
+nav ul{
+    display: flex;
+
+}
+nav li{
+    display: flex;
+    padding-right:20px;
+    list-style: none;
+}
